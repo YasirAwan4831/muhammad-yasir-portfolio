@@ -1,7 +1,7 @@
 # Yasir Awan – Portfolio Website
 
 A modern and responsive personal portfolio website built with **React.js**.  
-This project is a React-based conversion of my original HTML, CSS, and JavaScript portfolio.
+This project is a React-based.
 
 ---
 
