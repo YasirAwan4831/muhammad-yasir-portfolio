@@ -1,4 +1,4 @@
-# Yasir Awan – Portfolio Website
+# Mhuammad Yasir Portfolio
 
 A modern and responsive personal portfolio website built with **React.js**.  
 This project is a React-based.
@@ -35,7 +35,60 @@ React.js, JavaScript (ES6+), HTML5, CSS3, vite
 [![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=white)]()
 [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)]()
 [![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=white)]()
+
 ---
+## 📁 Project Structure
+
+```text
+my-portfolio/
+│
+├── package.json
+├── README.md
+│
+├── public/
+│   ├── index.html
+│   └── assets/
+│       └── all-photo/
+│
+└── src/
+    ├── index.js
+    ├── index.css
+    ├── App.jsx
+    │
+    ├── components/
+    │   ├── Navbar.jsx
+    │   ├── Home.jsx
+    │   ├── About.jsx
+    │   ├── Education.jsx
+    │   ├── Experience.jsx
+    │   ├── Services.jsx
+    │   ├── Projects.jsx
+    │   ├── Skills.jsx
+    │   ├── Contact.jsx
+    │   └── Footer.jsx
+    │
+    ├── hooks/
+    │   └── useCustomCursor.js
+    │
+    ├── styles/
+    │   ├── App.css
+    │   ├── Navbar.css
+    │   ├── Home.css
+    │   ├── About.css
+    │   ├── Education.css
+    │   ├── Experience.css
+    │   ├── Services.css
+    │   ├── Projects.css
+    │   ├── Skills.css
+    │   ├── Contact.css
+    │   └── Footer.css
+    │
+    └── utils/
+        └── constants.js
+ ```
+
+
+
 
 ## Social & Contact
 
