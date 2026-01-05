@@ -1,24 +1,11 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Footer from './components/Footer';
-import './styles/css/App.css';
+import "./styles/App.css";
 
 function App() {
   return (
-    <div className="App">
-      {/* Custom Cursor */}
-      <div className="cursor"></div>
-      
-      {/* Navbar */}
-      <Navbar />
-      
-      {/* Home Section */}
-      <Home />
-      
-      {/* Footer */}
-      <Footer />
-    </div>
+    <>
+      <h1>Yasir Awan Portfolio</h1>
+      <p>React portfolio project setup in progress.</p>
+    </>
   );
 }
 
