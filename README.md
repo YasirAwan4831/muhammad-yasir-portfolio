@@ -1,7 +1,8 @@
 # Mhuammad Yasir Portfolio
 
 A modern and responsive personal portfolio website built with **React.js**.  
-This project is a React-based.
+This project is a React-based personal portfolio showcasing my web development skills.
+
 
 ---
 
@@ -88,6 +89,46 @@ my-portfolio/
  ```
 
 
+## 🌐 Live Demo
+```
+   coming soon
+```
+
+## ## ⚙️ Installation & Setup
+
+1. Clone the repository
+```
+git clone https://github.com/YasirAwan4831/muhammad-yasir-portfolio.git
+```
+
+2. Navigate to the project directory
+```
+cd my-portfolio
+```
+
+3. Install dependencies
+```
+npm install
+```
+
+4. Start development server
+```
+npm run dev
+```
+
+---
+
+### 🔹 Customization
+```md
+##  Customization
+- Update personal details inside components folder
+- Replace images inside public/assets
+- Modify styles in styles directory
+- Add or remove sections easily
+```
+
+
+
 
 
 ## Social & Contact
@@ -101,6 +142,18 @@ my-portfolio/
 [![Instagram](https://img.shields.io/badge/Instagram-Profile-pink?logo=instagram)](https://www.instagram.com/yasirawan4831/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Website-orange?logo=google-chrome)](https://yasirawan4831.github.io/ApexcifyTechnologys-FrontendInternship/task-2/)
 [![Medium](https://img.shields.io/badge/Medium-Blog-black?logo=medium)](https://medium.com/@YasirAwan4831)
-[![Substack](https://img.shields.io/badge/Substack-Newsletter-orange?logo=substack)]([![Substack](https://img.shields.io/badge/Substack-Newsletter-orange?logo=substack)](SUBSTACK_LINK)
-)
+[![Substack](https://img.shields.io/badge/Substack-Newsletter-orange?logo=substack)](SUBSTACK_LINK)
 [![Facebook](https://img.shields.io/badge/Facebook-Profile-blue?logo=facebook)](https://www.facebook.com/profile.php?id=61575935942197)
+
+
+
+## 📄 License
+All rights reserved.
+
+This project is intended for personal portfolio use only.  
+Reproduction, distribution or commercial use without explicit permission is not allowed.
+
+
+## 👤 Author
+**Muhammad Yasir**  
+Full Stack Web Developer
