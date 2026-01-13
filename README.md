@@ -145,15 +145,3 @@ npm run dev
 [![Substack](https://img.shields.io/badge/Substack-Newsletter-orange?logo=substack)](SUBSTACK_LINK)
 [![Facebook](https://img.shields.io/badge/Facebook-Profile-blue?logo=facebook)](https://www.facebook.com/profile.php?id=61575935942197)
 
-
-
-## 📄 License
-All rights reserved.
-
-This project is intended for personal portfolio use only.  
-Reproduction, distribution or commercial use without explicit permission is not allowed.
-
-
-## 👤 Author
-**Muhammad Yasir**  
-Full Stack Web Developer
