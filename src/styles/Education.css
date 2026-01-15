@@ -1,0 +1,227 @@
+/* ==========================================
+   EDUCATION SECTION STYLES - Education.css
+   ========================================== */
+
+.education-section {
+    background: linear-gradient(135deg, rgba(20, 20, 20, 0.95), rgba(30, 30, 30, 0.95));
+    position: relative;
+}
+
+.education-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(circle at 20% 30%, rgba(46, 204, 113, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 80% 70%, rgba(52, 152, 219, 0.05) 0%, transparent 50%);
+    z-index: 0;
+}
+
+.education-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: flex-start;
+    position: relative;
+    z-index: 1;
+}
+
+/* Education Image */
+.education-image {
+    position: sticky;
+    top: 120px;
+}
+
+.image-placeholder.education-img {
+    width: 100%;
+    height: 380px;
+    border-radius: var(--border-radius);
+    background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-light);
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.image-placeholder.education-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(46, 204, 113, 0.1), transparent);
+    animation: shimmer 3s infinite;
+}
+
+.image-placeholder.education-img i {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    z-index: 1;
+    animation: bounce 3s ease-in-out infinite;
+}
+
+.image-placeholder.education-img span {
+    z-index: 1;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+/* Education Timeline */
+.education-timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+.education-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+    border-radius: 2px;
+    z-index: 1;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+    background: rgba(35, 35, 35, 0.8);
+    padding: 25px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 2;
+}
+
+.timeline-item:hover {
+    transform: translateX(10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    border-color: var(--primary-color);
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: -35px;
+    width: 16px;
+    height: 16px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    border: 4px solid #000;
+    box-shadow: 0 0 0 3px var(--primary-color);
+    z-index: 3;
+}
+
+.timeline-date {
+    position: absolute;
+    top: -12px;
+    left: -120px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: #000;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    box-shadow: 0 5px 15px rgba(46, 204, 113, 0.3);
+    min-width: 100px;
+    text-align: center;
+    z-index: 3;
+}
+
+.timeline-title {
+    font-size: 1.3rem;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.timeline-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    border-radius: 2px;
+}
+
+.timeline-subtitle {
+    font-size: 1rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.timeline-description {
+    color: var(--text-light);
+    line-height: 1.7;
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .education-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .education-image {
+        position: relative;
+        top: 0;
+    }
+    
+    .education-timeline {
+        padding-left: 0;
+    }
+    
+    .education-timeline::before,
+    .timeline-item::before {
+        display: none;
+    }
+    
+    .timeline-date {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-placeholder.education-img {
+        height: 300px;
+    }
+    
+    .image-placeholder.education-img i {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .image-placeholder.education-img {
+        height: 250px;
+    }
+    
+    .timeline-item {
+        padding: 20px;
+    }
+}
