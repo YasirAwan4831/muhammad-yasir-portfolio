@@ -1,0 +1,162 @@
+/* ==========================================
+   SKILLS SECTION STYLES - Skills.css
+   ========================================== */
+
+.skills-section {
+    background: linear-gradient(135deg, rgba(20, 20, 20, 0.95), rgba(30, 30, 30, 0.95));
+    position: relative;
+}
+
+.skills-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(circle at 30% 40%, rgba(46, 204, 113, 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 70% 60%, rgba(52, 152, 219, 0.03) 0%, transparent 50%);
+    z-index: 0;
+}
+
+.skills-header {
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Skills Container */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Skill Item */
+.skill-item {
+    background: rgba(35, 35, 35, 0.8);
+    border-radius: var(--border-radius);
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.skill-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+}
+
+.skill-item:hover::before {
+    transform: scaleX(1);
+}
+
+.skill-item:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    border-color: var(--primary-color);
+}
+
+.skill-item:hover .skill-icon {
+    transform: scale(1.2) rotate(10deg);
+}
+
+.skill-item:hover .skill-name {
+    color: var(--primary-color);
+}
+
+/* Skill Icon */
+.skill-icon {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    transition: var(--transition);
+    display: inline-block;
+}
+
+/* Skill Name */
+.skill-name {
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    transition: var(--transition);
+    display: block;
+}
+
+/* Skills icon colors according to brand colors */
+.skill-item:nth-child(1)  .skill-icon { color: #e34f26; }   /* HTML5 - Orange */
+.skill-item:nth-child(2)  .skill-icon { color: #1572b6; }   /* CSS3 - Blue */
+.skill-item:nth-child(3)  .skill-icon { color: #f7df1e; }   /* JavaScript - Yellow */
+.skill-item:nth-child(4)  .skill-icon { color: #f9f777; }   /* JSON - Light Yellow */
+.skill-item:nth-child(5)  .skill-icon { color: #61dafb; }   /* React - Light Blue */
+.skill-item:nth-child(6)  .skill-icon { color: #42b883; }   /* Vue.js - Green */
+.skill-item:nth-child(7)  .skill-icon { color: #339933; }   /* Node.js - Dark Green */
+.skill-item:nth-child(8)  .skill-icon { color: #8892bf; }   /* PHP - Muted Blue */
+.skill-item:nth-child(9)  .skill-icon { color: #3776ab; }   /* Python - Blue */
+.skill-item:nth-child(10) .skill-icon { color: #47a248; }   /* MongoDB - Green */
+.skill-item:nth-child(11) .skill-icon { color: #00758f; }   /* MySQL - Blue */
+.skill-item:nth-child(12) .skill-icon { color: #6f42c1; }   /* API Integration - Purple */
+.skill-item:nth-child(13) .skill-icon { color: #f05032; }   /* Git - Orange-Red */
+.skill-item:nth-child(14) .skill-icon { color: #6e5494; }   /* GitHub - Purple */
+.skill-item:nth-child(15) .skill-icon { color: #21759b; }   /* WordPress - Blue */
+.skill-item:nth-child(16) .skill-icon { color: #00c4cc; }   /* Canva - Cyan */
+.skill-item:nth-child(17) .skill-icon { color: #f24e1e; }   /* Figma - Red */
+.skill-item:nth-child(18) .skill-icon { color: #412991; }   /* OpenAI - Deep Purple */
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .skills-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .skill-item {
+        padding: 25px 15px;
+    }
+    
+    .skill-icon {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .skills-container {
+        grid-template-columns: 1fr;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    
+    .skill-icon {
+        font-size: 2.8rem;
+    }
+    
+    .skill-name {
+        font-size: 1rem;
+    }
+}
