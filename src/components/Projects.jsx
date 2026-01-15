@@ -1,3 +1,4 @@
+import '../styles/Projects.css';
 import React, { useState } from 'react';
 
 const Projects = () => {
