@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
@@ -9,10 +9,17 @@ import Services from './components/Services';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import useCustomCursor from './hooks/useCustomCursor';
+import useScrollAnimation from './hooks/useScrollAnimation';
 import './index.css';
 
-
 function App() {
+  // Initialize custom cursor
+  useCustomCursor();
+  
+  // Initialize scroll animations
+  useScrollAnimation('.project-card, .service-card');
+
   return (
     <div className="App">
       {/* Custom Cursor */}
