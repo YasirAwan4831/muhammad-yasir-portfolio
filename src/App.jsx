@@ -10,7 +10,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './index.css';
-import './App.css';  // App level styles
+
 
 function App() {
   return (
