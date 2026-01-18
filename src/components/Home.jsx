@@ -22,7 +22,7 @@ const Home = () => {
           <div className="home-image">
             <div className="image-frame">
               <div className="image-placeholder">
-                <img src="/assets/my-pic.jpg" alt="Muhammad Yasir - Full Stack Developer" className="profile-img" />
+                <img src="/assets/all-photo/about-pic.jpeg" alt="Muhammad Yasir - Full Stack Developer" className="profile-img" />
               </div>
               <div className="frame-border"></div>
             </div>
