@@ -47,12 +47,12 @@ my-portfolio/
 ├── README.md
 │
 ├── public/
-│   ├── index.html
 │   └── assets/
 │       └── all-photo/
 │
 └── src/
     ├── index.js
+    ├── index.html
     ├── index.css
     ├── App.jsx
     │
@@ -70,9 +70,11 @@ my-portfolio/
     │
     ├── hooks/
     │   └── useCustomCursor.js
+    │   └──useNavbar.js
+    │   └──useScrollAnimation.js
     │
     ├── styles/
-    │   ├── App.css
+    │   ├── index.css
     │   ├── Navbar.css
     │   ├── Home.css
     │   ├── About.css
