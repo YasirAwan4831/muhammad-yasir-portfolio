@@ -100,22 +100,22 @@
 /* Skills icon colors according to brand colors */
 .skill-item:nth-child(1)  .skill-icon { color: #e34f26; }   /* HTML5 - Orange */
 .skill-item:nth-child(2)  .skill-icon { color: #1572b6; }   /* CSS3 - Blue */
-.skill-item:nth-child(3)  .skill-icon { color: #f7df1e; }   /* JavaScript - Yellow */
-.skill-item:nth-child(4)  .skill-icon { color: #f9f777; }   /* JSON - Light Yellow */
-.skill-item:nth-child(5)  .skill-icon { color: #61dafb; }   /* React - Light Blue */
-.skill-item:nth-child(6)  .skill-icon { color: #42b883; }   /* Vue.js - Green */
+.skill-item:nth-child(3)  .skill-icon { color: #ffe101; }   /* JavaScript - Yellow */
+.skill-item:nth-child(4)  .skill-icon { color: #61c5fb; }   /* TypeScript - Light Yellow */
+.skill-item:nth-child(5)  .skill-icon { color: #2dcbf7; }   /* React - Light Blue */
+.skill-item:nth-child(6)  .skill-icon { color: #a53ef9; }   /* vite - Green */
 .skill-item:nth-child(7)  .skill-icon { color: #339933; }   /* Node.js - Dark Green */
-.skill-item:nth-child(8)  .skill-icon { color: #8892bf; }   /* PHP - Muted Blue */
-.skill-item:nth-child(9)  .skill-icon { color: #3776ab; }   /* Python - Blue */
-.skill-item:nth-child(10) .skill-icon { color: #47a248; }   /* MongoDB - Green */
-.skill-item:nth-child(11) .skill-icon { color: #00758f; }   /* MySQL - Blue */
-.skill-item:nth-child(12) .skill-icon { color: #6f42c1; }   /* API Integration - Purple */
-.skill-item:nth-child(13) .skill-icon { color: #f05032; }   /* Git - Orange-Red */
-.skill-item:nth-child(14) .skill-icon { color: #6e5494; }   /* GitHub - Purple */
-.skill-item:nth-child(15) .skill-icon { color: #21759b; }   /* WordPress - Blue */
-.skill-item:nth-child(16) .skill-icon { color: #00c4cc; }   /* Canva - Cyan */
-.skill-item:nth-child(17) .skill-icon { color: #f24e1e; }   /* Figma - Red */
-.skill-item:nth-child(18) .skill-icon { color: #412991; }   /* OpenAI - Deep Purple */
+.skill-item:nth-child(8)  .skill-icon { color: hwb(229 48% 0%); }   /* PHP - Muted Blue */
+.skill-item:nth-child(9)  .skill-icon { color: #d9ff00; }   /* Python - Blue */
+.skill-item:nth-child(10) .skill-icon { color: green; }   /* MongoDB - Green */
+.skill-item:nth-child(11) .skill-icon { color: #0fc9f3; }   /* MySQL - Blue */
+.skill-item:nth-child(12) .skill-icon { color: #8047eb; }   /* API Integration - Purple */
+.skill-item:nth-child(13) .skill-icon { color: #f44021; }   /* Git - Orange-Red */
+.skill-item:nth-child(14) .skill-icon { color: #944efe; }   /* GitHub - Purple */
+.skill-item:nth-child(15) .skill-icon { color: #30bdfe; }   /* WordPress - Blue */
+.skill-item:nth-child(16) .skill-icon { color: #0bf7ff; }   /* Canva - Cyan */
+.skill-item:nth-child(17) .skill-icon { color: #f93c02; }   /* Figma - Red */
+.skill-item:nth-child(18) .skill-icon { color: #3901f0; }   /* OpenAI - Deep Purple */
 
 /* Responsive */
 @media (max-width: 1200px) {
