@@ -18,64 +18,119 @@ export const NAV_LINKS = [
 // PROJECTS DATA
 // ==========================================
 export const PROJECTS_DATA = [
-  {
-    id: 1,
-    title: 'Portfolio Website',
-    description: 'A fully responsive and modern portfolio website built with clean UI/UX principles. It highlights my professional skills, completed projects and technical expertise. The design is minimal, fast and optimized for all devices, featuring interactive animations and smooth navigation.',
-    image: '/assets/project/portfolio-website.jpeg',
-    tools: ['HTML', 'CSS', 'JavaScript', 'React', 'TypeScript'],
-    liveLink: 'https://muhammadyaser-portfolio.netlify.app',
-    githubLink: 'https://github.com/YasirAwan4831/ApexcifyTechnologys-FrontendInternship'
-  },
-  {
-    id: 2,
-    title: 'Tourism Travel Website',
-    description: 'A modern and responsive tourism website providing destination details, travel guides and popular attractions. Designed with a clean layout and user-friendly experience to explore places easily.',
-    image: '/assets/project/tourism-travel-website.jpeg',
-    tools: ['HTML', 'CSS', 'JavaScript', 'React', 'TypeScript', 'JSON', 'UI'],
-    liveLink: 'https://finedine-restaurant.netlify.app',
-    githubLink: 'https://github.com/YasirAwan4831'
-  },
-  {
-    id: 3,
-    title: 'E-commerce Store',
-    description: 'A fully functional e-commerce website with product listings, dynamic pages, cart handling and a complete user-end shopping experience. Designed with a clean UI and smooth navigation, built to scale with future backend integration.',
-    image: '/assets/project/e-commerce.jpeg',
-    tools: ['HTML', 'CSS', 'JavaScript', 'React', 'Vue.js', 'UI/UX', 'Figma'],
-    liveLink: 'https://yasirawan-devhub-corporation-intern.netlify.app/',
-    githubLink: 'https://github.com/YasirAwan4831/developerhub-corporation-internship--Task_1_Ecommerce_Website'
-  }
-];
 
-// Additional Projects (Load More)
-export const ADDITIONAL_PROJECTS = [
-  {
-    id: 4,
-    title: 'To-Do List App',
-    description: 'A clean and interactive to-do list web application that allows users to add, edit, delete & mark tasks as completed. The UI is simple, responsive & optimized for fast performance.',
-    tools: ['HTML', 'CSS', 'JavaScript', 'Local Storage', 'Responsive Design'],
-    liveLink: 'https://github.com/YasirAwan4831/todo-list-js-app',
-    githubLink: 'https://github.com/YasirAwan4831/todo-list-js-app',
-    image: 'https://media.licdn.com/dms/image/v2/D4D22AQE2h8z1ZToSoQ/feedshare-shrink_800/B4DZk6ByzaJcAg-/0/1757615173410?e=1768435200&v=beta&t=B3GC73IBZgBtDP_qsUqWID2fECcJPSuVc8NWMLpfrUU'
-  },
-  {
-    id: 5,
-    title: 'YARIS AI Smart Chat Bot',
-    description: 'An interactive AI-powered chatbot built with React & JavaScript, designed to manage tasks efficiently, deliver smart context-aware responses & enhance the overall user interaction experience.',
-    tools: ['HTML', 'CSS', 'JavaScript', 'React', 'Typescript', 'AI Integration', 'API'],
-    liveLink: 'https://github.com/YasirAwan4831/YARIS-AI-Smart-Chat-Bot',
-    githubLink: 'https://github.com/YasirAwan4831/YARIS-AI-Smart-Chat-Bot',
-    image: 'https://github.com/YasirAwan4831/YARIS-AI-Smart-Chat-Bot/blob/main/screenshort/ofter-login.jpeg?raw=true'
-  },
-  {
-    id: 6,
-    title: 'Web Development Quiz App',
-    description: 'An interactive quiz app with 300+ web-development MCQs, personalized login, timed questions and a secure anti-cheating system to improve learning.',
-    tools: ['HTML', 'CSS', 'JavaScript', 'UX/UI', 'Responsive Design', 'Local Storage'],
-    liveLink: 'https://yasirawan4831.github.io/webdev-quiz-app/',
-    githubLink: 'https://github.com/YasirAwan4831/webdev-quiz-app',
-    image: 'https://github.com/YasirAwan4831/webdev-quiz-app/blob/main/docu/images/login_flow.jpg?raw=true'
-  }
+    {
+      id: 1,
+      title: 'Portfolio Website',
+      description: 'A fully responsive and modern portfolio website built with clean UI/UX principles. It highlights my professional skills, completed projects and technical expertise. The design is minimal, fast and optimized for all devices, featuring interactive animations and smooth navigation.',
+      image: '/public/assets/all-photo/portfolio-pic.jpeg',
+      tools: ['React', 'JavaScript', 'CSS', 'JSON', 'Fetch API', 'Vite', 'GSAP', 'AXIOS', 'Framer Motion', 'npm', 'Yarn'],
+      liveLink: 'https://muhammadyaser-portfolio.netlify.app',
+      githubLink: 'https://github.com/YasirAwan4831/ApexcifyTechnologys-FrontendInternship'
+    },
+    {
+      id: 2,
+      title: 'Business Nexus Dashboard',
+      description: 'Business Nexus Frontend: React + Tailwind dashboard for Investors & Entrepreneurs with role-based UI, meeting calendar, payment UI mock, document chamber and guided walkthrough (React Joyride). Demo deployed on Vercel.',
+      tools: ['React', 'Tailwind CSS','Login', 'Dashboard', 'video calling', 'UI/UX', 'Payment Actions',  'React Joyride'],
+      liveLink: 'https://yasirawan.vercel.app/login',
+      githubLink: 'https://github.com/YasirAwan4831/Nexus',
+      image: '/public/assets/all-photo/business-app.png'
+    },
+    {
+      id: 3,
+      title: 'E-commerce Store',
+      description: 'A fully functional e-commerce website with product listings, dynamic pages, cart handling and a complete user-end shopping experience. Designed with a clean UI and smooth navigation, built to scale with future backend integration.',
+      image: '/public/assets/all-photo/e-commerce.jpeg',
+      tools: ['HTML', 'CSS', 'JavaScript', 'React', 'Vue.js', 'UI/UX', 'Figma'],
+      liveLink: 'https://yasirawan-devhub-corporation-intern.netlify.app/',
+      githubLink: 'https://github.com/YasirAwan4831/developerhub-corporation-internship--Task_1_Ecommerce_Website'
+    }
+  ];
+
+  // Additional Projects (Load More - 9 Projects)
+  const additionalProjects = [
+    {
+      id: 4,
+      title: 'YARIS AI Smart Chat Bot',
+      description: 'An interactive AI-powered chatbot built with React & JavaScript, designed to manage tasks efficiently, deliver smart context-aware responses & enhance the overall user interaction experience.',
+      tools: ['HTML', 'CSS', 'JavaScript', 'React', 'TypeScript', 'AI Integration', 'API'],
+      liveLink: 'https://github.com/YasirAwan4831/YARIS-AI-Smart-Chat-Bot',
+      githubLink: 'https://github.com/YasirAwan4831/YARIS-AI-Smart-Chat-Bot',
+      image: '/public/assets/all-photo/yaris-ai-chatbot.jpeg'
+    },
+    {
+      id: 5,
+      title: 'Web Development Quiz App',
+      description: 'An interactive quiz app with 300+ web-development MCQs, personalized login, timed questions and a secure anti-cheating system to improve learning.',
+      tools: ['HTML', 'CSS', 'JavaScript', 'UX/UI', 'Responsive Design', 'Local Storage'],
+      liveLink: 'https://yasirawan4831.github.io/webdev-quiz-app/',
+      githubLink: 'https://github.com/YasirAwan4831/webdev-quiz-app',
+      image: '/public/assets/all-photo/quiz-app.png'
+    },
+    {
+      id: 6,
+      title: 'Product Listing Website',
+      description: 'A modern product listing website built with HTML, CSS & JavaScript, featuring responsive design, smooth scroll, login/signup, My Cart, Payment, Custom fonts and a user-friendly interface..',
+      tools: ['HTML', 'CSS', 'JavaScript', 'UX/UI', 'Login/Signup System', 'My Cart', 'Git', 'Smooth Scroll', ' Payment Integration'],
+      liveLink: 'https://github.com/YasirAwan4831/ApexcifyTechnologys-FrontendInternship/tree/main/task-2',
+      githubLink: 'https://github.com/YasirAwan4831/ApexcifyTechnologys-FrontendInternship/tree/main/task-2',
+      image: '/public/assets/all-photo/product-list.png'
+    },
+    {
+      id: 7,
+      title: 'Tourism Travel Website',
+      description: 'A modern and responsive tourism website providing destination details, travel guides and popular attractions. Designed with a clean layout and user-friendly experience to explore places easily.',
+      image: '/public/assets/all-photo/tourism-travel-website.jpeg',
+      tools: ['HTML', 'CSS', 'JavaScript', 'React', 'TypeScript', 'JSON', 'UI'],
+      liveLink: 'https://github.com/YasirAwan4831',
+      githubLink: 'https://github.com/YasirAwan4831'
+    },
+    {
+      id: 8,
+      title: 'Final Year Diploma Web Project',
+      description: 'A multi-page web application built as a FYP, featuring a structured UI, dynamic content, animations, a responsive layout & modules highlighting key front-end skills.',
+      tools: ['HTML', 'CSS', 'JavaScript', 'React.js', 'UX/UI', 'Animations', 'Git & GitHub', 'DOM Manipulation', 'Responsive Design'],
+      liveLink: 'https://yasirawaninfo-com.w3spaces.com/index.html',
+      githubLink: 'https://github.com/YasirAwan4831/Final-Year-Diploma-Web-Project',
+      image: '/public/assets/all-photo/final-year-project.png'
+    },
+    {
+      id: 9,
+      title: 'Marketing Agency Website (WordPress)',
+      description: 'A WordPress-based marketing agency website featuring service pages, a portfolio section, contact forms, optimized UI/UX, mobile responsiveness and an SEO-friendly layout.',
+      tools: ['WordPress', 'Elementor', 'Themes', 'Plugins', 'SEO', 'Web', 'Design', 'Page Builders', 'Content Management'],
+      liveLink: 'https://yasirawaninfo.lovestoblog.com/',
+      githubLink: 'https://github.com/YasirAwan4831',
+      image: '/public/assets/all-photo/wp-site.jpeg'
+    },
+        {
+      id: 10,
+      title: 'Python Image Processing',
+      description: 'A Python-based computer vision project using OpenCV, focused on real-time image processing and analysis. It demonstrates core Python programming concepts, computer vision logic and practical use of popular libraries in real-world scenarios.',
+      tools: ['Python', 'OpenCV', 'Computer Vision', 'Image Processing', 'Python Libraries', ' PIP', 'Flipping Operations'],
+      liveLink: 'https://github.com/YasirAwan4831/python-practice-project_0',
+      githubLink: 'https://github.com/YasirAwan4831/python-practice-project_0',
+      image: '/public/assets/all-photo/python-project.png'
+    },
+    {
+      id: 11,
+      title: 'Futuristic Links Dashboard',
+      description: 'A futuristic JS-based links dashboard that organizes personal and social links in one place. It features animated UI, canvas effects, an AI-style floating background & a smooth dark/light theme toggle for an interactive user experience.',
+      tools: ['JavaScript', 'Dark Theme', 'UI', 'Canvas Animations', 'Light/Dark Mode', 'Link Dashboard', 'Front-End Logic'],
+      liveLink: 'https://yasirawan4831.github.io/futuristic-links-dashboard/',
+      githubLink: 'https://github.com/YasirAwan4831/futuristic-links-dashboard',
+      image: '/public/assets/all-photo/aii-linKs.png'
+    },
+    {
+      id: 12,
+      title: 'To-Do List App',
+      description: 'A clean and interactive to-do list web application that allows users to add, edit, delete & mark tasks as completed. The UI is simple, responsive & optimized for fast performance.',
+      tools: ['HTML', 'CSS', 'JavaScript', 'Local Storage', 'Responsive Design'],
+      liveLink: 'https://github.com/YasirAwan4831/todo-list-js-app',
+      githubLink: 'https://github.com/YasirAwan4831/todo-list-js-app',
+      image: '/public/assets/all-photo/to-do.png'
+    }
 ];
 
 // ==========================================
