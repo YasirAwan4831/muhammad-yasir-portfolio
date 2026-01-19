@@ -7,10 +7,10 @@ const Experience = () => {
       id: 1,
       date: '2025',
       title: 'Frontend Web Developer Intern',
-      company: 'DevHub Corporation',
-      description: 'Worked as a Frontend Web Developer Intern, creating responsive and user-friendly interfaces using modern web technologies. Contributed to real-world client projects and gained practical experience in collaborative and agile development workflows',
-      tech: ['HTML', 'CSS', 'JavaScript', 'React', 'UX/UI', 'Figma', 'Git', 'GitHub'],
-      link: 'https://github.com/YasirAwan4831/developerhub-corporation-internship--Task_1_Ecommerce_Website',
+      company: 'DevelopersHub Corporation ©',
+      description: 'Worked as a Frontend Web Developer Intern, focusing on building responsive and interactive user interfaces. I collaborated on real-world web applications, implemented reusable components & improved UI/UX through structured layouts, animations & client-focused design requirements',
+      tech: ['JavaScript', 'React', 'React Joyride', 'Tailwind CSS', 'Dashboard', 'UX/UI', 'Figma', 'Git', 'GitHub'],
+      link: 'https://github.com/YasirAwan4831/Nexus',
       linkType: 'github'
     },
     {
@@ -18,9 +18,9 @@ const Experience = () => {
       date: '2025',
       title: 'Career Development Intern',
       company: 'Pakistan Career Fire',
-      description: 'Worked as a Career Development Intern, supporting students and professionals. Contributed to educational resources, community engagement and communication. Gained experience in mentoring, coordination and digital workflows.',
-      tech: ['Career Counseling', 'Communication', 'Content Creation', 'Client Relations', 'Freelancing'],
-      link: 'https://www.linkedin.com/in/yasirawan4831/',
+      description: 'Worked as a Career Development Intern, assisting students & early-career professionals guidance, coordination & structured communication. Contributed to learning resources, community engagement & digital workflows, while honing mentoring & professional interaction skill.',
+      tech: ['Career Counseling', 'Communication', 'Social Media', 'Content Creation', 'Client Relations', 'Freelancing'],
+      link: 'https://www.linkedin.com/posts/yasirawan4831_pcfinternship-skills4u-pakistancareerfair-activity-7419039633444913153-sPN5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFyt-1EB5XKMOcxukQpAzVmx6pIKiXdCz64',
       linkType: 'linkedin'
     },
     {
@@ -28,8 +28,8 @@ const Experience = () => {
       date: '2025 - 2026',
       title: 'Frontend Web Developer',
       company: 'Apexcify Technologys',
-      description: 'Currently working as a Frontend Web Developer, creating modern, responsive interfaces. Collaborating with design and backend teams for seamless UX. Building expertise in component-based architecture, API integration and scalable frontend workflows.',
-      tech: ['HTML CSS', 'JavaScript', 'React', 'TypeScript', 'Node.Js', 'API Integration', 'UX/UI', 'Git & GitHub'],
+      description: 'Worked as a Frontend Web Developer, building modern and responsive user interfaces. Collaborated with design to deliver smooth user experiences while strengthening skills in component-based development, structured workflows and scalable frontend architecture.',
+      tech: ['HTML CSS', 'JavaScript', 'UX/UI', 'API Integration', 'e-commerce UI',  'portfolio-website', 'Git & GitHub'],
       link: 'https://github.com/YasirAwan4831/ApexcifyTechnologys-FrontendInternship',
       linkType: 'github'
     }
@@ -68,6 +68,7 @@ const Experience = () => {
               </a>
             </div>
           </div>
+          
           
           {/* Right Side: Experience Timeline */}
           <div className="experience-timeline">
