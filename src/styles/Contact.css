@@ -90,7 +90,7 @@
 .contact-icon {
     width: 55px;
     height: 55px;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    background: #484c48;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -157,13 +157,13 @@
 }
 
 .social-link:hover {
-    background: rgba(46, 204, 113, 0.15);
+    background: rgba(14, 246, 110, 0.15);
     transform: translateY(-5px);
     border-color: var(--primary-color);
 }
 
 .social-icon {
-    font-size: 2rem;
+    font-size: 2.1rem;
     margin-bottom: 10px;
     color: var(--primary-color);
 }
