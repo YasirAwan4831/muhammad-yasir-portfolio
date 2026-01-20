@@ -34,14 +34,14 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_lilqstm",   // 🔴 اپنی SERVICE ID یہاں ڈالیں
-        "template_jz2ldzw",  // 🔴 اپنی TEMPLATE ID یہاں ڈالیں
+        "service_j7wdhbe",   // 🔴  SERVICE ID 
+        "template_63rkhzp",  // 🔴  TEMPLATE ID 
         {
           name: formData.name,
           email: formData.email,
           message: formData.message,
         },
-        "XJVr1uCLeDT0ZMtYp"  // 🔴 اپنی PUBLIC KEY یہاں ڈالیں
+        "JE2aT-H2O8d8g4Cc7"  // 🔴PUBLIC KEY 
       )
       .then(
         () => {
@@ -86,7 +86,7 @@ const Contact = () => {
               <div className="contact-item">
                 <div className="contact-icon"><i className="fas fa-globe"></i></div>
                 <div className="contact-text">
-                  <h4>Website</h4>
+                  <h4>GitHub</h4>
                   <p>https://github.com/yasirawan4831</p>
                 </div>
               </div>
