@@ -120,6 +120,23 @@ npm run dev
 
 ---
 
+
+## ✉️ Contact Form & Email API
+
+The portfolio features a **fully functional Contact Form** built with React and styled using modern CSS.  
+It enables visitors to send messages directly from the website without the need for a separate backend, thanks to **EmailJS API integration**.  
+
+Users can enter their **Name, Email, and Message** and submit the form to reach out instantly.  
+The form provides **real-time feedback** with success or error notifications, so visitors always know if their message was sent successfully.  
+
+Alongside the form, the portfolio displays **social media links** including **LinkedIn, GitHub, Discord, and more**, allowing easy connection with the creator.  
+
+Developers can **customize the form** by updating EmailJS **Service ID, Template ID, and Public Key**, controlling how messages are sent and received.  
+This ensures a **professional, interactive, and user-friendly** contact section, showcasing practical usage of React components, API integration, and responsive design.
+---
+
+
+
 ### 🔹 Customization
 ```md
 ##  Customization
