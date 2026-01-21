@@ -5,9 +5,9 @@ const Home = () => {
   return (
     <section id="home" className="home-section">
       <div className="container">
-        <div className="home-content">
+        <div className="home-content"> 
           <div className="home-text">
-            <h3 className="greeting">Hello, I'm</h3>
+            <h3 className="greeting">Hello,  I'm</h3>
             <h1 className="title">Full Stack Developer</h1>
             <p className="description">
               Building fantastic web experiences with clean code and modern design.
