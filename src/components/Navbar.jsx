@@ -7,7 +7,7 @@ const Navbar = () => {
 
   const navLinks = [
     { id: 'home', label: 'Home' },
-    { id: 'about', label: 'About Us' },
+    { id: 'about', label: 'About Me' },
     { id: 'projects', label: 'Projects' },
     { id: 'education', label: 'Education' },
     { id: 'experience', label: 'Experience' },
