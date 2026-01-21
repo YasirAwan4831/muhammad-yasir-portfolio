@@ -34,14 +34,14 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_j7wdhbe",   // 🔴  SERVICE ID 
-        "template_63rkhzp",  // 🔴  TEMPLATE ID 
+        "service_j7wdhbe",  
+        "template_63rkhzp",  
         {
           name: formData.name,
           email: formData.email,
           message: formData.message,
         },
-        "JE2aT-H2O8d8g4Cc7"  // 🔴PUBLIC KEY 
+        "JE2aT-H2O8d8g4Cc7"  
       )
       .then(
         () => {
