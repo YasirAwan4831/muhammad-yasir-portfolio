@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about" className="about-section">
       <div className="container">
-        <h2 className="section-title">About Us</h2>
+        <h2 className="section-title">About Me</h2>
         <div className="about-content">
           <div className="about-image">
             <div className="about-image-container">
@@ -23,7 +23,7 @@ const About = () => {
                 <i className="fas fa-envelope"></i>
                 <div>
                   <h4>Email</h4>
-                  <p>myasirtech4831@gmail.com</p>
+                  <p>my3154831409@gmail.com</p>
                 </div>
               </div>
               <div className="contact-item">
