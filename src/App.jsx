@@ -9,6 +9,7 @@ import Services from './components/Services';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import useCustomCursor from './hooks/useCustomCursor';
 import useScrollAnimation from './hooks/useScrollAnimation';
 import './index.css';
@@ -54,6 +55,9 @@ function App() {
       
       {/* Footer */}
       <Footer />
+      
+      {/* Scroll to Top Button */}
+      <ScrollToTop />
     </div>
   );
 }
