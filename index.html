@@ -3,18 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Muhammad Yasir - Full Stack Developer Portfolio Website showcase projects, Skills, Education, Experience and Services">
-    <title>Muhammad Yasir - Portfolio Website</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="description" content="Muhammad Yasir - Full Stack Developer Portfolio Website showcasing projects, skills, education, experience, services and contact">
+    <meta name="keywords" content="Muhammad Yasir, Full Stack Developer, React, Node.js, Portfolio, Web Developer, JavaScript, TypeScript, Pakistan Developer">
+    <meta name="author" content="Muhammad Yasir">
+    <meta name="robots" content="index, follow">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yasirawan4831.github.io/">
+    <meta property="og:title" content="Muhammad Yasir - Full Stack Developer Portfolio">
+    <meta property="og:description" content="Full Stack Developer specializing in React, Node.js, and modern web technologies">
+    <meta property="og:image" content="https://yasirawan4831.github.io/public/preview.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yasirawan4831.github.io/">
+    <meta property="twitter:title" content="Muhammad Yasir - Full Stack Developer Portfolio">
+    <meta property="twitter:description" content="Full Stack Developer specializing in React, Node.js, and modern web technologies">
+    <meta property="twitter:image" content="https://yasirawan4831.github.io/public/preview.jpg">
+    
+    <!-- Preconnect for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yasirawan4831.github.io/">
+    
+    <!-- Title -->
+    <title>Muhammad Yasir | Full Stack Developer Portfolio</title>
+    
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="/public/icon.jpeg">
+    <link rel="apple-touch-icon" href="/public/icon.jpeg">
     
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+          crossorigin="anonymous" 
+          referrerpolicy="no-referrer" />
     
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Preload CSS (if using external CSS) -->
+    <!-- <link rel="preload" href="styles.css" as="style"> -->
+    
+    <!-- Manifest for PWA -->
+    <!-- <link rel="manifest" href="/manifest.json"> -->
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#2ecc71">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="language" content="English">
+    <meta name="geo.region" content="PK">
+    <meta name="geo.placename" content="Karachi">
+    <meta name="geo.position" content="24.8607;67.0011">
+    <meta name="ICBM" content="24.8607, 67.0011">
+    
+    <!-- Mobile Web App Capable -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>
 <body>
+    <!-- Loading Spinner (Optional) -->
+    <div id="loading-spinner" style="display: none;">
+        <div class="spinner"></div>
+    </div>
+    
+    <!-- Root element for React -->
     <div id="root"></div>
+    
+    <!-- Main JavaScript -->
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Analytics (Optional) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-XXXXX-Y');
+    </script> -->
+    
+    <!-- Fallback for no JavaScript -->
+    <noscript>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background: #1a1a1a;
+                color: white;
+                font-family: 'Poppins', sans-serif;
+                text-align: center;
+                padding: 20px;
+            }
+            .noscript-message {
+                max-width: 600px;
+            }
+            .noscript-message h1 {
+                color: #2ecc71;
+                margin-bottom: 20px;
+            }
+        </style>
+        <div class="noscript-message">
+            <h1>JavaScript Required</h1>
+            <p>This portfolio website requires JavaScript to function properly. Please enable JavaScript in your browser settings to view the content.</p>
+            <p>Alternatively, you can visit my <a href="https://github.com/yasirawan4831" style="color: #2ecc71;">GitHub profile</a> for more information.</p>
+        </div>
+    </noscript>
 </body>
 </html>
