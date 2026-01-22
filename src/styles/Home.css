@@ -1,14 +1,15 @@
 /* ==========================================
-   HOME SECTION STYLES - Home.css
+   HOME SECTION STYLES - Home.css (MINIMAL WITH ANIMATIONS)
    ========================================== */
 
 .home-section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(30, 30, 30, 0.95));
+    background: linear-gradient(135deg, rgba(10, 10, 10, 0.95), rgba(30, 30, 30, 0.95));
     padding-top: 100px;
     position: relative;
+    overflow: hidden;
 }
 
 .home-section::before {
@@ -18,12 +19,11 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: 
-        radial-gradient(circle at 20% 50%, rgba(46, 204, 113, 0.05) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(52, 152, 219, 0.05) 0%, transparent 50%);
+    background: radial-gradient(circle at 20% 40%, rgba(46, 204, 113, 0.05) 0%, transparent 60%);
     z-index: 0;
 }
 
+/* Home Content */
 .home-content {
     display: flex;
     align-items: center;
@@ -38,54 +38,117 @@
 .home-text {
     flex: 1;
     min-width: 300px;
-    animation: fadeInLeft 1s ease;
+    animation: slideLeft 0.8s ease both;
 }
 
 .greeting {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: var(--primary-color);
     margin-bottom: 15px;
-    animation: fadeInUp 0.8s ease 0.2s both;
+    font-weight: 500;
+    text-transform: uppercase;
+    animation: fadeInUp 0.5s ease 0.2s both;
 }
 
 .title {
     font-size: 3.2rem;
     margin: 20px 0;
-    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: fadeInUp 0.8s ease 0.4s both;
+    color: #56f6db;
+    font-weight: 700;
+    line-height: 1.1;
+    animation: fadeInUp 0.5s ease 0.4s both;
+}
+
+.title span {
+    color: var(--primary-color);
+    display: inline;
 }
 
 .description {
     font-size: 1.1rem;
     margin-bottom: 40px;
     max-width: 500px;
-    color: var(--text-light);
-    animation: fadeInUp 0.8s ease 0.8s both;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    animation: fadeInUp 0.5s ease 0.6s both;
 }
 
+/* Buttons */
 .buttons {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    animation: fadeInUp 0.8s ease 0.8s both;
+    animation: fadeInUp 0.5s ease 0.8s both;
 }
 
-/* Home Image */
+.btn {
+    padding: 14px 35px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: #000;
+    border: 2px solid var(--primary-color);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(46, 204, 112, 0.954);
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: var(--primary-color);
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #fff;
+}
+
+.btn i {
+    transition: transform 0.3s ease;
+}
+
+.btn:hover i {
+    transform: translateX(5px);
+}
+
+/* Image with More Animations */
 .home-image {
     flex: 1;
     min-width: 300px;
-    position: relative;
-    animation: fadeInRight 1s ease;
+    animation: slideRight 0.8s ease both;
 }
 
 .image-frame {
+    width: 320px;
+    height: 320px;
+    margin: auto;
     position: relative;
-    width: 348px;
-    height: 350px;
-    margin: 0 auto;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
 }
 
 .image-placeholder {
@@ -94,45 +157,108 @@
     border-radius: 50%;
     overflow: hidden;
     position: relative;
-    z-index: 3;
+    z-index: 2;
+    transition: transform 0.5s ease;
+}
+
+.image-frame:hover .image-placeholder {
+    transform: scale(1.05);
 }
 
 .profile-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
+    transition: all 0.8s ease;
+    filter: grayscale(0.2) contrast(1.1);
 }
 
-/* Frame Border Animation */
+.image-frame:hover .profile-img {
+    filter: grayscale(0) contrast(1.2);
+    transform: scale(1.1);
+}
+
+/* Premium Animated Border */
 .frame-border {
     position: absolute;
-    top: -10px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
-    border-radius: 48%; 
-    background: linear-gradient(45deg, 
-        #f0f5f1,  
-        hsl(110, 88%, 84%),
-        #a7eaf1fb,    
-        #59585c);  
+    inset: -16px;
+    border-radius: 50%;
+    background: linear-gradient(
+        45deg,
+        #00f5ff,
+        #7c3aed,
+        #ff0080,
+        #ffae00,
+        #00ff85
+    );
+    background-size: 400% 400%;
+    animation:
+        rotate 10s linear infinite,
+        gradientShift 6s ease infinite,
+        pulse 2.5s ease-in-out infinite alternate;
     z-index: 1;
-    animation: rotateBorder 8s linear infinite;
-    box-shadow: 
-        0 0 25px #51e36455,
-        0 0 45px hwb(168 44% 4% / 0.235);
+    opacity: 0.9;
+    filter: blur(0.2px);
 }
 
-@keyframes rotateBorder {
-    0% { 
-        transform: rotate(0deg);
-        filter: hue-rotate(0deg);
-    }
-    100% { 
-        transform: rotate(360deg);
-        filter: hue-rotate(360deg);
-    }
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+    from { transform: scale(1); }
+    to { transform: scale(1.04); }
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.frame-border::before {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    border-radius: 50%;
+    background: #141414;
+    z-index: 2;
+}
+
+/* Shine Effect */
+.shine {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transform: skewX(-20deg);
+    animation: shine 3s ease-in-out infinite;
+    z-index: 3;
+}
+
+@keyframes shine {
+    0% { left: -100%; opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { left: 200%; opacity: 0; }
+}
+
+/* Base Animations */
+@keyframes slideLeft {
+    from { opacity: 0; transform: translateX(-30px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideRight {
+    from { opacity: 0; transform: translateX(30px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 /* Responsive */
@@ -141,54 +267,28 @@
         flex-direction: column;
         text-align: center;
     }
-    
-    .home-text {
-        align-items: center;
-    }
-    
-    .description {
-        margin: 0 auto 40px;
-    }
-    
     .buttons {
         justify-content: center;
+    }
+    .image-frame {
+        animation: floatMobile 6s ease-in-out infinite;
+    }
+    @keyframes floatMobile {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
     }
 }
 
 @media (max-width: 768px) {
-    .title {
-        font-size: 2.5rem;
-    }
-    
-    .image-frame {
-        width: 280px;
-        height: 280px;
-    }
+    .title { font-size: 2.6rem; }
+    .image-frame { width: 280px; height: 280px; }
 }
 
 @media (max-width: 576px) {
-    .home-section {
-        padding-top: 120px;
-    }
-    
-    .greeting {
-        font-size: 1.2rem;
-    }
-    
-    .title {
-        font-size: 2rem;
-    }
-    
-    .description {
-        font-size: 1rem;
-    }
-    
-    .buttons {
-        flex-direction: column;
-        width: 100%;
-    }
-    
-    .btn {
-        width: 100%;
-    }
+    .home-section { padding-top: 80px; }
+    .title { font-size: 2.2rem; }
+    .title span { font-size: 1.6rem; }
+    .buttons { flex-direction: column; width: 100%; }
+    .btn { width: 100%; justify-content: center; }
+    .image-frame { width: 250px; height: 250px; }
 }
