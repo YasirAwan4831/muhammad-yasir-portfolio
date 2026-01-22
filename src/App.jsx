@@ -14,6 +14,8 @@ import useCustomCursor from './hooks/useCustomCursor';
 import useScrollAnimation from './hooks/useScrollAnimation';
 import './index.css';
 
+
+
 function App() {
   // Initialize custom cursor
   useCustomCursor();
