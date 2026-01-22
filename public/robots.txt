@@ -1,0 +1,23 @@
+# robots.txt for Muhammad Yasir Portfolio
+# robots.txt for  YasirAwan4831 Portfolio
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Disallow admin/build folders (if any)
+Disallow: /admin/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /secret.pdf
+Disallow: /draft.html
+
+
+# Sitemap location
+Sitemap: https://yasirawan4831.github.io/sitemap.xml
+
+# Crawl-delay (optional - seconds between requests)
+Crawl-delay: 1
+
+# Muhammad Yasir 
+# YasirAwan4831
