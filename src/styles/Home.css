@@ -53,16 +53,18 @@
 .title {
     font-size: 3.2rem;
     margin: 20px 0;
-    color: #56f6db;
     font-weight: 700;
     line-height: 1.1;
-    animation: fadeInUp 0.5s ease 0.4s both;
+    background: linear-gradient(to right, #5ff7e0, hwb(208 0% 0%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .title span {
     color: var(--primary-color);
-    display: inline;
+    -webkit-text-fill-color: initial;
 }
+
 
 .description {
     font-size: 1.1rem;
@@ -181,15 +183,15 @@
 /* Premium Animated Border */
 .frame-border {
     position: absolute;
-    inset: -16px;
+    inset: -17px;
     border-radius: 50%;
     background: linear-gradient(
         45deg,
         #00f5ff,
         #7c3aed,
         #ff0080,
-        #ffae00,
-        #00ff85
+        #00ff26,
+        #00bfff
     );
     background-size: 400% 400%;
     animation:
@@ -220,7 +222,7 @@
 .frame-border::before {
     content: "";
     position: absolute;
-    inset: 2px;
+    inset: 3px;
     border-radius: 50%;
     background: #141414;
     z-index: 2;
