@@ -171,7 +171,7 @@ const Contact = () => {
                   id="message"
                   name="message"
                   rows="5"
-                  placeholder="Enter your message"
+                  placeholder="Enter Your message"
                   value={formData.message}
                   onChange={handleChange}
                   required
@@ -180,7 +180,7 @@ const Contact = () => {
               </div>
 
               <button type="submit" className="btn btn-primary submit-btn">
-                <span>Send Message</span>
+                <span>Send Message   </span>
                 <i className="fas fa-paper-plane"></i>
               </button>
 
