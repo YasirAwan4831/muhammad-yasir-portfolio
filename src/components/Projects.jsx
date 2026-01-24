@@ -11,8 +11,8 @@ const Projects = () => {
       id: 1,
       title: 'Portfolio Website',
       description: 'A fully responsive and modern portfolio website built with clean UI/UX principles. It highlights my professional skills, completed projects and technical expertise. The design is minimal, fast and optimized for all devices, featuring interactive animations and smooth navigation.',
-      image: '/public/assets/all-photo/portfolio-pic.jpeg',
-      tools: ['React', 'JavaScript', 'CSS', 'JSON', 'Fetch API', 'Vite', 'GSAP', 'AXIOS', 'Framer Motion', 'npm', 'Yarn'],
+      image: '/public/assets/all-photo/portfolio-pic.png',
+      tools: ['React', 'JavaScript', 'CSS', 'JSON', 'Fetch API', 'Vite', 'GSAP', 'AXIOS', 'E-mail JS', 'API', 'npm', 'Yarn'],
       liveLink: 'https://muhammadyaser-portfolio.netlify.app',
       githubLink: 'https://github.com/YasirAwan4831/muhammad-yasir-portfolio'
     },
