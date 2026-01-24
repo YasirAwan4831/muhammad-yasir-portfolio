@@ -15,8 +15,8 @@ This project is a React-based personal portfolio showcasing my web development s
 
 ---
 
-### 🌐 Live Preview
-
+### 🌐 Live Preview:
+   Coming Soon   ............
 
 ---
 
@@ -59,13 +59,17 @@ React.js, JavaScript (ES6+), HTML5, CSS3, vite, E-MailJS
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript&logoColor=black)]()
 [![HTML5](https://img.shields.io/badge/HTML5-E53935?logo=html5&logoColor=white)]()
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)]()
+[![JSON](https://img.shields.io/badge/JSON-5A29E4?logo=json&logoColor=white)]()
 [![Vite](https://img.shields.io/badge/Vite-3.0.0-purple?logo=vite&logoColor=white)]()
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwind-css&logoColor=white)]()
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)]()
+[![React Hooks](https://img.shields.io/badge/React-Hooks-61DAFB?logo=react&logoColor=white)]()
 [![Framer Motion](https://img.shields.io/badge/FramerMotion-0055FF?logo=framer&logoColor=white)]()
 [![GSAP](https://img.shields.io/badge/GSAP-88CE02?logo=greensock&logoColor=white)]()
 [![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)]()
 [![Fetch API](https://img.shields.io/badge/Fetch_API-00C4CC?logo=javascript&logoColor=white)]()
+[![EmailJSAPI](https://img.shields.io/badge/EmailJSAPI-FF69B4?logo=emailjs&logoColor=white)]()
+[![EmailJS Dashboard](https://img.shields.io/badge/EmailJS-Dashboard-FF69B4?logo=emailjs&logoColor=white)]()
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)]()
 [![Canva](https://img.shields.io/badge/Canva-00C4CC?logo=canva&logoColor=white)]()
 [![Netlify](https://img.shields.io/badge/Netlify-00C7B7?logo=netlify&logoColor=white)]()
@@ -74,6 +78,13 @@ React.js, JavaScript (ES6+), HTML5, CSS3, vite, E-MailJS
 [![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=white)]()
 [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)]()
 [![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=white)]()
+[![React Router](https://img.shields.io/badge/ReactRouter-CA4245?logo=react-router&logoColor=white)]()
+[![React Icons](https://img.shields.io/badge/ReactIcons-61DAFB?logo=react&logoColor=white)]()
+[![SEO: Sitemap, Meta, Robots](https://img.shields.io/badge/SEO-Sitemap%2C%20Meta%2C%20Robots-00C4CC?logo=xml&logoColor=white)]()
+
+
+
+
 ---
 
 ## 📁 Project Structure
@@ -290,10 +301,9 @@ Contributions are welcome! Feel free to:
 
 ## 📄 License
 
-**All Rights Reserved © 2025 Muhammad Yasir**
-
-This project is for **personal portfolio use only**.  
-Reproduction, distribution or commercial use without explicit permission is **not allowed**.
+© 2026 Muhammad Yasir. All Rights Reserved.
+This portfolio is protected under proprietary license.
+See [LICENSE](LICENSE) for details.
 
 ---
 
@@ -395,11 +405,7 @@ Reproduction, distribution or commercial use without explicit permission is **no
 
 </p>
 
-
-
 ---
-
-
 
 ###  If you like this project, please give it a star!
 
