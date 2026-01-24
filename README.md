@@ -13,24 +13,21 @@
 A modern and responsive personal portfolio website built with **React.js**.  
 This project is a React-based personal portfolio showcasing my web development skills.
 
+---
+
+### 🌐 Live Preview
+
 
 ---
 
-## Overview
-
-The portfolio highlights my skills, projects, education, and professional experience.  
-It follows a component-based architecture with clean folder structure and reusable UI components.
-
-
----
 ##  Overview
 
 A modern, responsive, and interactive personal portfolio website built with **React.js** and **Vite**.  
-This portfolio showcases my skills, projects, education, professional experience, and services in a clean and user-friendly interface.
+This portfolio showcases my skills, projects, education, professional experience and services in a clean and user-friendly interface.
 
 ### Key Highlights:
 -  Modern UI/UX with smooth animations
--  Fully responsive design (Mobile, Tablet, Desktop)
+-  Fully responsive design (Mobile, Tablet Desktop)
 -  Custom cursor effects
 -  Integrated contact form with EmailJS
 -  Fast loading with Vite
@@ -47,16 +44,16 @@ This portfolio showcases my skills, projects, education, professional experience
 - ✅ **Project Showcase** - Interactive project cards with live demos
 - ✅ **Skills Visualization** - Icon-based skill display
 - ✅ **Contact Form** - Fully functional with email integration
-- ✅ **Social Integration** - Links to GitHub, LinkedIn, Medium, etc.
+- ✅ **Social Integration** - Links to GitHub, LinkedIn, Medium etc.
 - ✅ **Custom Cursor** - Interactive cursor effects
 - ✅ **Scroll to Top** - Smooth navigation button
-- ✅ **SEO Optimized** - Meta tags, sitemap, robots.txt
+- ✅ **SEO Optimized** - Meta tags, sitemap robots.txt
 
 ---
 
 ## Tech Stack
 
-React.js, JavaScript (ES6+), HTML5, CSS3, vite 
+React.js, JavaScript (ES6+), HTML5, CSS3, vite, E-MailJS 
 
 [![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react&logoColor=white)]()
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript&logoColor=black)]()
@@ -270,13 +267,13 @@ The portfolio features a **fully functional Contact Form** powered by **EmailJS 
 <summary>Click to view screenshots</summary>
 
 ### Home Section
-![Home](./screenshots/home.png)
+![Home](image.png)
 
 ### Projects Section
-![Projects](./screenshots/projects.png)
+![Projects](image-1.png)
 
 ### Contact Section
-![Contact](./screenshots/contact.png)
+![Contact](image-2.png)
 
 </details>
 
@@ -296,28 +293,115 @@ Contributions are welcome! Feel free to:
 **All Rights Reserved © 2025 Muhammad Yasir**
 
 This project is for **personal portfolio use only**.  
-Reproduction, distribution, or commercial use without explicit permission is **not allowed**.
+Reproduction, distribution or commercial use without explicit permission is **not allowed**.
 
 ---
 
-##  Contact
+## 📬 Contact
 
-<div align="center">
+<p align="center">
 
-[![Email](https://img.shields.io/badge/Email-myasirtech4831@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:myasirtech4831@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Yasir-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yasirawan4831/)
-[![GitHub](https://img.shields.io/badge/GitHub-yasirawan4831-black?style=for-the-badge&logo=github)](https://github.com/yasirawan4831)
-[![Medium](https://img.shields.io/badge/Medium-@YasirAwan4831-black?style=for-the-badge&logo=medium)](https://medium.com/@YasirAwan4831)
-[![Twitter](https://img.shields.io/badge/Twitter-@YasirAwan4831-blue?style=for-the-badge&logo=x)](https://x.com/YasirAwan4831)
+<a href="https://yasirawan4831.github.io/futuristic-links-dashboard/">
+<img src="https://img.shields.io/badge/All%20Links-00FFFF?style=for-the-badge&logo=linktree&logoColor=black" style="margin:4px;" />
+</a>
 
-</div>
+<a href="https://linkedin.com/in/yasirawan4831">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://github.com/YasirAwan4831">
+<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://yasirawan4831.github.io/ApexcifyTechnologys-FrontendInternship/task-2/">
+<img src="https://img.shields.io/badge/Portfolio-00E5FF?style=for-the-badge&logo=google-chrome&logoColor=black" style="margin:4px;" />
+</a>
+
+<a href="https://kaggle.com/yasirawan4831">
+<img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://coderlegion.com/user/YasirAwan4831">
+<img src="https://img.shields.io/badge/TheCoderLogin-2E8B57?style=for-the-badge&logo=c&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://leetcode.com/u/YasirAwan4831">
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" style="margin:4px;" />
+</a>
+
+<a href="https://stackoverflow.com/users/31822196/yasirawan4831">
+<img src="https://img.shields.io/badge/StackOverflow-F58025?style=for-the-badge&logo=stack-overflow&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://forem.com/yasirawan4831">
+<img src="https://img.shields.io/badge/Dev.to-000000?style=for-the-badge&logo=dev.to&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://hashnode.com/@YasirAwan4831">
+<img src="https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://medium.com/@YasirAwan4831">
+<img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://substack.com/@yasirwaninfo">
+<img src="https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://www.youtube.com/@YasirTech-t1d">
+<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://x.com/YasirAwan4831">
+<img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://instagram.com/yasirawan4831">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://facebook.com/profile.php?id=61575935942197">
+<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://www.tiktok.com/@yasirawan4831?lang=en">
+<img src="https://img.shields.io/badge/TikTok-FF6A00?style=for-the-badge&logo=tiktok&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://asani.pk/profile/yasirawan4831">
+<img src="https://img.shields.io/badge/ASANI-00C896?style=for-the-badge&logo=briefcase&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://orcid.org/0009-0002-8711-6868">
+<img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://developers.google.com/profile/u/yasirawaninfo">
+<img src="https://img.shields.io/badge/Google%20Dev-4285F4?style=for-the-badge&logo=google&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="https://discord.com/users/1298290889373913149">
+<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="mailto:my3154831409@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" style="margin:4px;" />
+</a>
+
+<a href="mailto:my3154831409@hotmail.com">
+<img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" style="margin:4px;" />
+</a>
+
+</p>
+
+
 
 ---
 
-<div align="center">
 
-### ⭐ If you like this project, please give it a star!
+
+###  If you like this project, please give it a star!
 
 Made with  by [Muhammad Yasir](https://github.com/yasirawan4831)
 
-</div>
