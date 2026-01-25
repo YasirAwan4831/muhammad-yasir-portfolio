@@ -3,7 +3,7 @@
 #  Muhammad Yasir - Portfolio Website
 
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=google-chrome)](https://yasirawan4831.github.io/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=google-chrome)](https://yasirawaninfo.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/yasirawan4831)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yasirawan4831/)
 
@@ -16,7 +16,7 @@ This project is a React-based personal portfolio showcasing my web development s
 ---
 
 ### 🌐 Live Preview:
-   Coming Soon   ............
+   https://yasirawaninfo.vercel.app/
 
 ---
 
@@ -83,8 +83,6 @@ React.js, JavaScript (ES6+), HTML5, CSS3, vite, E-MailJS
 [![SEO: Sitemap, Meta, Robots](https://img.shields.io/badge/SEO-Sitemap%2C%20Meta%2C%20Robots-00C4CC?logo=xml&logoColor=white)]()
 
 
-
-
 ---
 
 ## 📁 Project Structure
@@ -105,7 +103,6 @@ my-portfolio/
 │   ├── sitemap.xml 
 │   └── assets/
 │       ├── icon.png
-│       ├── my-pic.jpg   
 │       ├── preview.jpg  
 │       └── photos/   
 │
@@ -183,6 +180,10 @@ npm run dev
 npm run build
 ```
 
+```bash
+npm run dev
+```
+
 6. **Preview production build**
 ```bash
 npm run preview
@@ -196,7 +197,7 @@ npm run preview
 |-----------|-------------|
 | `Navbar` | Responsive navigation with active link highlighting |
 | `Home` | Hero section with animated profile image |
-| `About` | Personal info, stats, and contact details |
+| `About` | Personal info, stats and contact details |
 | `Projects` | Interactive project cards with live demos |
 | `Education` | Timeline of educational background |
 | `Experience` | Professional work experience |
@@ -214,7 +215,7 @@ npm run preview
 Creates an interactive custom cursor that follows mouse movement.
 
 ### `useNavbar`
-Handles navigation state, active section tracking, and smooth scrolling.
+Handles navigation state, active section tracking and smooth scrolling.
 
 ### `useScrollAnimation`
 Triggers animations when elements enter the viewport using Intersection Observer API.
@@ -309,7 +310,6 @@ See [LICENSE](LICENSE) for details.
 
 ## 📬 Contact
 
-<p align="center">
 
 <a href="https://yasirawan4831.github.io/futuristic-links-dashboard/">
 <img src="https://img.shields.io/badge/All%20Links-00FFFF?style=for-the-badge&logo=linktree&logoColor=black" style="margin:4px;" />
@@ -323,7 +323,7 @@ See [LICENSE](LICENSE) for details.
 <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" style="margin:4px;" />
 </a>
 
-<a href="https://yasirawan4831.github.io/ApexcifyTechnologys-FrontendInternship/task-2/">
+<a href="https://yasirawaninfo.vercel.app/">
 <img src="https://img.shields.io/badge/Portfolio-00E5FF?style=for-the-badge&logo=google-chrome&logoColor=black" style="margin:4px;" />
 </a>
 
@@ -403,11 +403,10 @@ See [LICENSE](LICENSE) for details.
 <img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" style="margin:4px;" />
 </a>
 
-</p>
 
 ---
 
 ###  If you like this project, please give it a star!
 
-Made with  by [Muhammad Yasir](https://github.com/yasirawan4831)
+Made with  by [Muhammad Yasir](https://yasirawaninfo.vercel.app/)
 

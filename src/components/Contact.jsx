@@ -23,26 +23,38 @@ const Contact = () => {
     { id: 9, name: "YouTube", icon: "fab fa-youtube", url: "https://www.youtube.com/@YasirTech-t1d" },
   ];
 
-  // Input handler for form fields
+  // This sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionfields
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // EmailJS form submit handler
+  // // This is a private section for internal use only
+  // This is a private section for internal use only
+  // This is a private section for internal use only
+  // This is a private section for internal use only
+  // This is a private section for internal use only
+  // This is a private section for internal use only
+  // This is a private section for internal use only
+  // This sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis sectionThis s
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.cccc0444400ccx4444444444444csdsd4444sda();
 
-    emailjs
+    contactfdfdxfgdfrgresergdfgrsefdazsdfawesfsadfsazedfrerfrsawewfdxfcdfvgsdfgsdfgsdfgsedfrgsedfrgvsjs
       .send(
-        "service_j7wdhbe",  
-        "template_63rkhzp",  
+        "sdgjf4fhhhhhhhhhd425555gfgdghghhhhhhhhhhhhhhhhhhhffd2fv4d25555f4d22222255552222s2fd1fc5555552dgggdgfs4sg5dfrgd6f5g222224fd54g6sx5fdgs465df4s6ad5f4s5f4222vd5fv1sdf545s4fsdf4s5dvc14sd5fsg5d4fsd4f5s5s4ffsa54da5sd4fa5sd4fs5d4fsd5fsd5f4s5d4fsa5d5a65dsa5d4f6asd54a5dsf54fs5df4asedr81ds4f1ca4fe87saz5sa8dfc4a5d45az7dz545d7fd5d4f8e7sfd54xsc87edfczs45dfc7edsa8da4szd4d7d44cv44sd5sz8sdfffsddgfsdsgsbssvfgfdgdgsgsdshsgrrf1vxd2f5sd425frvs25df4v42dvfxd2f1vg4df5gfd2gvbc14f2g14bxc2f4",  
+        "00sfsdgf0ehhhhrfg22222hhherddddhhhhs0dddd0dgs0fd222g77ddd7777dddd7s4444000dfrg2222vd0550dg22d000s22e222d7777222rg000dfrgs0s777deerf00sdfg00fs0",  
         {
           name: formData.name,
           email: formData.email,
           message: formData.message,
         },
-        "JE2aT-H2O8d8g4Cc7"  
+        "0fgs22200022s22222hhhh222222hhhh222hhhhh22222eg0222ghhhh2222hhhhh2222hhhhhederfesfge222rr2222222d00eefs222222022222222222222222resgfdgewses0se222r0earrerre00222r00rreew2222200r"  
       )
+      // This is a private section for internal use only
+      // This is a private section for internal use only
+      // This is a private section for internal use only
+      // This is a private section for internal use only
+
       .then(
         () => {
           setFormStatus("success");
