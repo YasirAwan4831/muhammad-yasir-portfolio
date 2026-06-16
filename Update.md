@@ -24,4 +24,12 @@ Initial output is visible, confirming proper React setup.
 - All **pictures / photo section** uploaded and integrated into the project.  
 - Repo prepared for public push; `.gitignore` configured to exclude `node_modules`, `dist`, `.vite`, `.env`, and other unnecessary files.  
 - Initial testing confirms project structure, components, and EmailJS integration are working as expected.  
-- Frontend is fully functional and ready for eventual live deployment (Vercel / Netlify).
+- Frontend is fully functional and ready for eventual live deployment (Vercel /).
+
+# Last UpDate 
+ 16 June 2026
+
+1. ReDevelop Project and Experience section
+2. UpDate Services Page 
+3. Update Corsel and Skills Sections 
+4. Add ChatBot In Protfolio 
