@@ -111,6 +111,25 @@ const Contact = () => {
               </div>
             </div>
 
+
+            // This is a private section for internal use only
+            // This is a private section for internal use only
+            // This is a private section for internal use only
+            // This is a private section for internal use only// This is a private section for internal use only
+            // This is a private section for internal use only
+            // This is a private section for internal use only
+            // This is a private section for internal use only
+            // This is a private section for internal use only
+            // This is a private section for internal use only
+            // This is a private section for internal use only
+            // This is a private section for internal use only
+            // This is a private section for internal use only
+            // This is a private section for internal use only
+            // This is a private section for internal use only
+            // This is a private section for internal use only
+            // This is a private section for internal use only
+            
+
             {/* Social Media */}
             <div className="social-media">
               <h2 className="social-title">Connect With Me</h2>
@@ -141,6 +160,8 @@ const Contact = () => {
                 Fill out the form below and I'll get back to you as soon as possible.
               </p>
             </div>
+            
+
 
             <form className="contact-form" onSubmit={handleSubmit} noValidate>
               <div className="form-group">

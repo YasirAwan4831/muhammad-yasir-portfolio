@@ -1,0 +1,73 @@
+/* ==========================================
+   CHATBOT STYLES — Chatbot.css
+   Matches: Chatbot.jsx (cb-* class names)
+   ========================================== */
+
+/* ── Root container (fixed, bottom-right) ── */
+/* bottom: 95px  →  sits above the ScrollToTop button (≈58px tall + gap) */
+.cb-root {
+  position: fixed;
+  bottom: 95px;
+  right: 25px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 14px;
+  pointer-events: none;
+}
+
+/* ==========================================
+   CHAT WINDOW
+   ========================================== */
+.cb-window {
+  width: 300px;   /* چوڑائی */
+  height: 400px;  /* اونچائی */
+  background: #0d0f14;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow:
+    0 24px 64px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(46, 204, 113, 0.08);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  /* Hidden state - clicks block نہ ہوں */
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px) scale(0.95);
+  transform-origin: bottom right;
+  transition:
+    opacity 0.32s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.32s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.cb-window.cb-open {
+  opacity: 1;
+  pointer-events: auto; /* کھلنے پر clicks enable */
+  transform: translateY(0) scale(1);
+}
+
+/* ==========================================
+   HEADER
+   ========================================== */
+.cb-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 14px;  /* ← header اوپر نیچے سے چھوٹا */
+  background: linear-gradient(135deg, #0f2027, #1a2a1a);
+  border-bottom: 1px solid rgba(46, 204, 113, 0.12);
+  flex-shrink: 0;
+}
+
+.cb-header-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.cb-header-info i {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+}
