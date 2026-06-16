@@ -5,121 +5,138 @@ const Projects = () => {
   const [visibleProjects, setVisibleProjects] = useState(3);
   const [isLoading, setIsLoading] = useState(false);
 
-  // Main 3 Projects (Always Visible)
-  const mainProjects = [
-    {
-      id: 1,
-      title: 'Portfolio Website',
-      description: 'A fully responsive and modern portfolio website built with clean UI/UX principles. It highlights my professional skills, completed projects and technical expertise. The design is minimal, fast and optimized for all devices, featuring interactive animations and smooth navigation.',
-      image: '/public/assets/all-photo/portfolio-pic.png',
-      tools: ['React', 'JavaScript', 'CSS', 'JSON', 'Fetch API', 'Vite', 'GSAP', 'AXIOS', 'E-mail JS', 'API', 'npm', 'Yarn'],
-      liveLink: 'https://muhammadyaser-portfolio.netlify.app',
-      githubLink: 'https://github.com/YasirAwan4831/muhammad-yasir-portfolio'
-    },
-    {
-      id: 2,
-      title: 'Business Nexus Dashboard',
-      description: 'Business Nexus Frontend: A modern React + Tailwind CSS dashboard for Investors & Entrepreneurs  role-based UI, meeting calendar, payment UI mock, document chamber and guided onboarding with React Joyride. Fully responsive design with reusable components.',
-      tools: ['React', 'Tailwind CSS','Login', 'Dashboard', 'video calling', 'UI/UX', 'Payment Actions',  'React Joyride'],
-      liveLink: 'https://yasirawan.vercel.app/login',
-      githubLink: 'https://github.com/YasirAwan4831/Nexus',
-      image: '/public/assets/all-photo/business-app.png'
-    },
-    {
-      id: 3,
-      title: 'E-commerce Store',
-      description: 'A fully functional e-commerce website with product listings, dynamic pages, cart handling and complete user-side shopping experience. Designed with clean UI, smooth navigation, responsive layout and built to scale for future backend integration and advanced features.',
-      image: '/public/assets/all-photo/e-commerce.jpeg',
-      tools: ['HTML5', 'CSS3', 'JavaScript', 'UI/UX', 'Responsive Design', 'Font Awesome', 'Figma', 'netlify.app', 'Browser Storage'],
-      liveLink: 'https://yasirawan-devhub-corporation-intern.netlify.app/',
-      githubLink: 'https://github.com/YasirAwan4831/developerhub-corporation-internship--Task_1_Ecommerce_Website'
-    }
-  ];
+const mainProjects = [
+{
+id: 1,
+title: 'GitHub Repository Analytics Dashboard',
+description: 'A modern full-stack GitHub analytics dashboard built with React and Node.js. It fetches live repository data from the GitHub API and provides repository insights, profile exploration, filtering, sorting and responsive visualizations for developers and recruiters.',
+image: '/public/assets/project/grad-01.jpg',
+tools: ['React', 'Node.js', 'JavaScript', 'GitHub API', 'REST API', 'Dashboard', 'Data Visualization', 'Vite', 'Responsive Design'],
+liveLink: 'https://yasirawangithub.vercel.app/',
+githubLink: 'https://github.com/YasirAwan4831/github-repository-analytics-dashboard'
+},
+{
+id: 2,
+title: 'Real-Time Collaborative Document Editor',
+description: 'A full-stack real-time collaborative document editor built with React, Node.js, Express.js, Socket.IO and Firebase. Features live document synchronization, authentication, user presence tracking, version history and role-based collaboration.',
+image: '/public/assets/project/real-time-cl.png',
+tools: ['React', 'Node.js', 'Express.js', 'Socket.IO', 'Firebase', 'Authentication', 'Real-Time Collaboration', 'JavaScript'],
+liveLink: 'https://github.com/YasirAwan4831/rt-collaborative-doc-editor-fs3',
+githubLink: 'https://github.com/YasirAwan4831/rt-collaborative-doc-editor-fs3'
+},
+{
+id: 3,
+title: 'AI Resume Screener & Job Matcher',
+description: 'An AI-powered resume screening system developed with Python and Flask. The application extracts skills from resumes, analyzes job descriptions and generates intelligent match scores to streamline recruitment workflows.',
+image: '/public/assets/project/resuma-ai03.png',
+tools: ['Python', 'Flask', 'NLP', 'PyPDF2', 'pdf-plumber', 'HTML', 'CSS', 'JavaScript', 'AI', 'Resume Analysis'],
+liveLink: 'https://yasirawaninfo-ai.vercel.app/#projects',
+githubLink: 'https://github.com/YasirAwan4831/resume-screener-ai-internship-project-three'
+}
+];
 
-  // Additional Projects (Load More - 9 Projects)
-  const additionalProjects = [
-    {
-      id: 4,
-      title: 'YARIS AI Smart Chat Bot',
-      description: 'An interactive AI-powered chatbot built with React Node.js  JavaScript and Google Gemini A, designed to manage tasks efficiently, deliver smart context-aware responses & enhance the overall user interaction experience.',
-      tools: ['HTML', 'CSS', 'JavaScript', 'React', 'TypeScript', 'AI Integration', 'API'],
-      liveLink: 'https://github.com/YasirAwan4831/YARIS-AI-Smart-Chat-Bot',
-      githubLink: 'https://github.com/YasirAwan4831/YARIS-AI-Smart-Chat-Bot',
-      image: '/public/assets/all-photo/yaris-ai-chatbot.jpeg'
-    },
-    {
-      id: 5,
-      title: 'Web Dev Quiz App',
-      description: 'An interactive web-dev quiz app  featuring 300+ MCQs, login, timed questions,  scrolling animations &  strict anti-cheating system that blocks copying, screenshots & tab switching to secure & focused learning..',
-      tools: ['HTML', 'CSS', 'JavaScript', 'UX/UI', 'Responsive Design', 'Local Storage'],
-      liveLink: 'https://yasirawan4831.github.io/webdev-quiz-app/',
-      githubLink: 'https://github.com/YasirAwan4831/webdev-quiz-app',
-      image: '/public/assets/all-photo/quiz-app.png'
-    },
-    {
-      id: 6,
-      title: 'Product Listing Website',
-      description: 'A modern product listing website built with HTML, CSS & JavaScript, featuring responsive design, smooth scroll, login/signup System, My Cart, Payment, Custom fonts and a user-friendly interface..',
-      tools: ['JavaScript', 'UX/UI', 'Git & GitHub', 'Login/Signup', 'My Cart',  'Scroll'],
-      liveLink: 'https://github.com/YasirAwan4831/ApexcifyTechnologys-FrontendInternship/tree/main/task-2',
-      githubLink: 'https://github.com/YasirAwan4831/ApexcifyTechnologys-FrontendInternship/tree/main/task-2',
-      image: '/public/assets/all-photo/product-list.png'
-    },
-    {
-      id: 7,
-      title: 'Tourism Travel Website',
-      description: 'A modern and responsive tourism website providing destination details, travel guides and popular attractions. Designed with a clean layout and user-friendly experience to explore places easily.',
-      image: '/public/assets/all-photo/tourism-travel-website.jpeg',
-      tools: ['HTML', 'CSS', 'JavaScript', 'React', 'TypeScript', 'Git', 'JSON(Static Data)', 'React Router', 'UI / UX', 'Hosting'],
-      liveLink: 'https://github.com/YasirAwan4831',
-      githubLink: 'https://github.com/YasirAwan4831'
-    },
-    {
-      id: 8,
-      title: 'Final Year Diploma Web Project',
-      description: 'A multi-page Business web application built as a FYP, featuring a structured UI, dynamic content, animations, a responsive layout & modules highlighting key front-end skills.',
-      tools: ['HTML', 'CSS', 'JavaScript', 'React.js', 'UX/UI', 'Animations', 'Git & GitHub', 'DOM Manipulation', 'Responsive Design'],
-      liveLink: 'https://yasirawaninfo-com.w3spaces.com/index.html',
-      githubLink: 'https://github.com/YasirAwan4831/Final-Year-Diploma-Web-Project',
-      image: '/public/assets/all-photo/final-year-project.png'
-    },
-    {
-      id: 9,
-      title: 'Marketing Agency Website (WordPress)',
-      description: 'A WordPress-based marketing agency website featuring service pages, a portfolio section, contact forms, optimized UI/UX, mobile responsiveness and an SEO-friendly layout.',
-      tools: ['WordPress', 'Elementor', 'Themes', 'Plugins', 'SEO', 'Web', 'Design', 'Page Builders', 'Content Management'],
-      liveLink: 'https://yasirawaninfo.lovestoblog.com/',
-      githubLink: 'https://github.com/YasirAwan4831',
-      image: '/public/assets/all-photo/wp-site.jpeg'
-    },
-        {
-      id: 10,
-      title: 'Python Image Processing',
-      description: 'A Python-based computer vision project using OpenCV, focused real-time image processing and analysis. It demonstrates core Python programming concepts, computer vision logic and practical use of popular libraries in real-world scenarios.',
-      tools: ['Python', 'OpenCV', 'Computer Vision', 'Image Processing', 'Python Libraries', ' PIP', 'Flipping Operations'],
-      liveLink: 'https://github.com/YasirAwan4831/python-practice-project_0',
-      githubLink: 'https://github.com/YasirAwan4831/python-practice-project_0',
-      image: '/public/assets/all-photo/python-project.png'
-    },
-    {
-      id: 11,
-      title: 'Futuristic Links Dashboard',
-      description: 'A futuristic JavaScript-based links dashboard that organizes personal and social links in one place. It features animated UI, canvas effects, an AI-style floating background & a smooth dark/light theme toggle for an interactive user experience.',
-      tools: ['JavaScript', 'Dark Theme', 'UI', 'Canvas Animations', 'Light/Dark Mode', 'Link Dashboard', 'Front-End Logic'],
-      liveLink: 'https://yasirawan4831.github.io/futuristic-links-dashboard/',
-      githubLink: 'https://github.com/YasirAwan4831/futuristic-links-dashboard',
-      image: '/public/assets/all-photo/aii-linKs.png'
-    },
-    {
-      id: 12,
-      title: 'To-Do List App',
-      description: 'A simple and interactive To-Do List application built with HTML, CSS, and JavaScript. Features include add, edit, delete tasks and data persistence using localStorage. Future improvements: dark mode, reminders, task counter & export/import options..',
-      tools: ['HTML', 'CSS', 'JavaScript','Git', 'dark mode', 'Local Storage', 'GitHub', 'Responsive Design', 'modern UI'],
-      liveLink: 'https://github.com/YasirAwan4831/todo-list-js-app',
-      githubLink: 'https://github.com/YasirAwan4831/todo-list-js-app',
-      image: '/public/assets/all-photo/to-do.png'
-    }
-  ];
+const additionalProjects = [
+{
+id: 4,
+title: 'RAG-based AI Knowledge Assistant',
+description: 'A production-style Retrieval Augmented Generation (RAG) system that processes company documents, creates vector embeddings and delivers accurate context-aware responses using modern AI workflows and semantic search.',
+image: '/public/assets/project/rg-based-ai-a-04.png', // Add project image
+tools: ['Python', 'Google Gemini', 'RAG', 'Vector Database', 'Embeddings', 'Semantic Search', 'AI', 'Knowledge Base'],
+liveLink: 'https://yasirawaninfo-ai.vercel.app/#projects',
+githubLink: 'https://github.com/YasirAwan4831/nexeagent-rag-based-knowledge-assistant'
+},
+{
+id: 5,
+title: 'Multi-Tool AI Agent',
+description: 'A Python-based intelligent AI agent capable of handling multiple automation tasks including job search, note management, email operations and tool execution through AI-powered workflows and function calling.',
+image: '/public/assets/project/multi-tools-05.png', // Add project image
+tools: ['Python', 'AI Agent', 'Automation', 'Function Calling', 'Email Automation', 'Workflow Automation', 'APIs'],
+liveLink: 'https://yasirawaninfo-ai.vercel.app/#projects',
+githubLink: 'https://github.com/YasirAwan4831/nexeagent-multi-tool-ai-agent'
+},
+{
+id: 6,
+title: 'Task Management Web App',
+description: 'A full-stack MERN task management platform featuring JWT authentication, Kanban boards, task assignment, workflow tracking and responsive project management capabilities for teams and organizations.',
+image: '/public/assets/project/task-manag-06.png', 
+tools: ['MongoDB', 'Express.js', 'React', 'Node.js', 'JWT', 'Authentication', 'Kanban Board', 'REST API'],
+liveLink: 'https://github.com/YasirAwan4831/taskflow-kanban-app--fs1-',
+githubLink: 'https://github.com/YasirAwan4831/taskflow-kanban-app--fs1-'
+},
+
+{
+id: 7,
+title: 'TEYZIX CORE Internship Portal',
+description: 'A modern full-stack internship management platform built for handling internship applications, candidate management and administrative workflows. Features responsive UI, application tracking, admin controls, dark mode support and scalable architecture.',
+image: '/public/assets/project/teyzix-core-inter-pro07b.jpg', // Add project image
+tools: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Firebase', 'Authentication', 'Dashboard', 'REST API', 'Responsive Design'],
+liveLink: 'https://teyzix-core-internship-portal-fs2-3e94lqtec-yasirawans-projects.vercel.app/',
+githubLink: 'https://github.com/YasirAwan4831/teyzix-core-internship-portal-fs2'
+},
+
+{
+id: 8,
+title: 'Business Nexus Dashboard',
+description: 'A professional React-based dashboard designed for investors and entrepreneurs. Includes role-based access, meeting management, payment workflows, document handling, onboarding walkthroughs and a modern responsive interface.',
+image:'/public/assets/all-photo/business-app.png',
+tools: ['React', 'Tailwind CSS', 'JavaScript', 'Dashboard', 'React Joyride', 'Role-Based UI', 'Responsive Design'],
+liveLink: 'https://yasirawan.vercel.app/login',
+githubLink: 'https://github.com/YasirAwan4831/Nexus'
+},
+
+{
+id: 9,
+title: 'Portfolio Website',
+description: 'A modern and responsive personal portfolio website built with React and Vite. Showcases technical skills, projects, education, certifications and professional experience through an optimized and visually appealing user experience.',
+image: '/public/assets/all-photo/portfolio-pic.png',
+tools: ['React', 'JavaScript', 'Vite', 'CSS', 'GSAP', 'Axios', 'EmailJS', 'API Integration', 'Responsive Design'],
+liveLink: 'https://yasirawaninfo.vercel.app/',
+githubLink: 'https://github.com/YasirAwan4831/muhammad-yasir-portfolio'
+},
+
+{
+id: 10,
+title: 'Star Developer Corporate Website',
+description: 'A premium corporate website developed for a digital solutions agency, highlighting web development, AI automation, branding, digital marketing and SaaS-focused services. Designed with a strong focus on lead generation and professional presentation.',
+image: '/public/assets/project/star-dev-cop-10.jpg', // Add project image
+tools: ['React', 'Vite', 'JavaScript', 'CSS', 'Responsive Design', 'UI/UX', 'Business Website'],
+liveLink: 'https://infostardeveloper.vercel.app/',
+githubLink: 'https://github.com/YasirAwan4831/star-developer-agency-showcase-01'
+},
+
+{
+id: 11,
+title: 'DIGITECH Solutions Corporate Website',
+description: 'A modern business-focused website showcasing AI-powered services, software solutions and digital transformation offerings. Built with a clean architecture and professional design suitable for startups and technology companies.',
+image: '/public/assets/project/digitech-co-web-11.jpg', // Add project image
+tools: ['React', 'Next.js', 'JavaScript', 'CSS', 'UI/UX', 'Corporate Website', 'Responsive Design'],
+liveLink: 'https://digitechsolutionsm.vercel.app/',
+githubLink: 'https://github.com/YasirAwan4831/digitech-solutions-ai-platform-overview00'
+},
+
+{
+id: 12,
+title: 'WhatsApp Automation System',
+description: 'An AI-powered WhatsApp automation platform developed during the AI & Automation Internship. The system automates messaging workflows, user interactions, notifications and business communication processes using modern automation techniques.',
+image: '/public/assets/project/whatsaap-bot-12.png', // Add project image
+tools: ['Python', 'WhatsApp Automation', 'AI Automation', 'APIs', 'Workflow Automation', 'Business Automation'],
+liveLink: 'https://github.com/YasirAwan4831/whatsapp-automation-system-bot',
+githubLink: 'https://github.com/YasirAwan4831/whatsapp-automation-system-bot'
+},
+
+{
+id: 13,
+title: 'Python Email Automation System',
+description: 'A smart email automation solution built with Python to automate email sending, personalized communication, workflow execution and repetitive business processes. Designed to improve productivity and operational efficiency.',
+image: '/public/assets/project/email-auto.jpg', // Add project image
+tools: ['Python', 'Email Automation', 'SMTP', 'Automation', 'Workflow Management', 'Business Process Automation'],
+liveLink: 'https://yasirawaninfo-ai.vercel.app/#projects',
+githubLink: 'https://github.com/YasirAwan4831/ai-email-automation-python-internship'
+}
+];
+
+
+
 
   // All projects combined
   const allProjects = [...mainProjects, ...additionalProjects];

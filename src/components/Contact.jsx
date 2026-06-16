@@ -18,7 +18,7 @@ const Contact = () => {
     { id: 4, name: "All Links", icon: "fas fa-link", url: "https://yasirawan4831.github.io/futuristic-links-dashboard/" },
     { id: 5, name: "Dev.to", icon: "fab fa-dev", url: "https://forem.com/yasirawan4831" },
     { id: 6, name: "CoderLegion", icon: "fas fa-copyright", url: "https://coderlegion.com/user/YasirAwan4831" },
-    { id: 7, name: "Medium", icon: "fab fa-medium", url: "https://medium.com/@YasirAwan4831" },
+    { id: 7, name: "Medium", icon: "fab fa-x", url: "https://medium.com/@YasirAwan4831" },
     { id: 8, name: "Discord", icon: "fab fa-discord", url: "https://discord.com/users/1298290889373913149" },
     { id: 9, name: "YouTube", icon: "fab fa-youtube", url: "https://www.youtube.com/@YasirTech-t1d" },
   ];

@@ -3,7 +3,7 @@
 #  Muhammad Yasir - Portfolio Website
 
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=google-chrome)](https://yasirawaninfo.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=google-chrome)](https://yasirawan4831.github.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/yasirawan4831)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yasirawan4831/)
 
@@ -16,7 +16,7 @@ This project is a React-based personal portfolio showcasing my web development s
 ---
 
 ### 🌐 Live Preview:
-   https://yasirawaninfo.vercel.app/
+     https://yasirawaninfo.vercel.app/
 
 ---
 
@@ -83,66 +83,96 @@ React.js, JavaScript (ES6+), HTML5, CSS3, vite, E-MailJS
 [![SEO: Sitemap, Meta, Robots](https://img.shields.io/badge/SEO-Sitemap%2C%20Meta%2C%20Robots-00C4CC?logo=xml&logoColor=white)]()
 
 
+
+
 ---
 
 ## 📁 Project Structure
 
 ```text
-my-portfolio/
-│
-├── index.html
-├── package.json
-├── package-lock.json
-├── LICENSE
-├── README.md   
-├── .gitignore  
-├── update.md  
-│
-├── public/
-│   ├── robots.txt 
-│   ├── sitemap.xml 
-│   └── assets/
-│       ├── icon.png
-│       ├── preview.jpg  
-│       └── photos/   
-│
-└── src/
-    ├── main.jsx       
-    ├── index.css     
-    ├── App.jsx    
-    │
-    ├── components/       
-    │   ├── Navbar.jsx
-    │   ├── Home.jsx
-    │   ├── About.jsx
-    │   ├── Projects.jsx
-    │   ├── Education.jsx
-    │   ├── Experience.jsx
-    │   ├── Services.jsx
-    │   ├── Skills.jsx
-    │   ├── Contact.jsx
-    │   ├── Footer.jsx
-    │   └── ScrollToTop.jsx
-    │
-    ├── hooks/             
-    │   ├── useCustomCursor.js
-    │   ├── useNavbar.js
-    │   └── useScrollAnimation.js
-    │
-    ├── styles/            
-    │   ├── Navbar.css
-    │   ├── Home.css
-    │   ├── About.css
-    │   ├── Projects.css
-    │   ├── Education.css
-    │   ├── Experience.css
-    │   ├── Services.css
-    │   ├── Skills.css
-    │   ├── Contact.css
-    │   └── Footer.css
-    │
-    └── utils/             
-        └── constants.js   
+portfolio-core101/
+├─ public/
+│  ├─ assets/
+│  │  ├─ all-photo/
+│  │  │  ├─ about-pic.jpeg
+│  │  │  ├─ aii-links.png
+│  │  │  ├─ apni_pic.png
+│  │  │  ├─ business-app.png
+│  │  │  ├─ e-commerce.jpeg
+│  │  │  ├─ final-year-project.png
+│  │  │  ├─ portfolio-pic.png
+│  │  │  ├─ product-list.png
+│  │  │  ├─ python-project.png
+│  │  │  ├─ quiz-app.png
+│  │  │  ├─ singup-form.png
+│  │  │  ├─ to-do.png
+│  │  │  ├─ tourism-travel-website.jpeg
+│  │  │  ├─ wp-site.jpeg
+│  │  │  └─ yaris-ai-chatbot.jpeg
+│  │  └─ project/
+│  │     ├─ digitech-co-web-11.png
+│  │     ├─ digitech-co-web-22.jpg
+│  │     ├─ email-auto.jpg
+│  │     ├─ grad-01.jpg
+│  │     ├─ multi-tools-05.png
+│  │     ├─ real-time-cl.png
+│  │     ├─ resuma-ai03.png
+│  │     ├─ rg-based-ai-a-04.png
+│  │     ├─ rg-based-ai-a-044.png
+│  │     ├─ star-dev-cop-10.jpg
+│  │     ├─ task-manag-06.png
+│  │     ├─ teyzix-core-inter-pro07b.jpg
+│  │     └─ whatsaap-bot-12.png
+│  ├─ icon.jpeg
+│  ├─ robots.txt
+│  └─ sitemap.xml
+├─ src/
+│  ├─ components/
+│  │  ├─ About.jsx
+│  │  ├─ Chatbot.jsx
+│  │  ├─ Contact.jsx
+│  │  ├─ Education.jsx
+│  │  ├─ Experience.jsx
+│  │  ├─ Footer.jsx
+│  │  ├─ Home.jsx
+│  │  ├─ Navbar.jsx
+│  │  ├─ Projects.jsx
+│  │  ├─ ScrollToTop.jsx
+│  │  ├─ Services.jsx
+│  │  └─ Skills.jsx
+│  ├─ hooks/
+│  │  ├─ useCustomCursor.js
+│  │  ├─ useNavbar.js
+│  │  └─ useScrollAnimation.js
+│  ├─ styles/
+│  │  ├─ About.css
+│  │  ├─ App.css
+│  │  ├─ Chatbot.css
+│  │  ├─ Contact.css
+│  │  ├─ Education.css
+│  │  ├─ Experience.css
+│  │  ├─ Footer.css
+│  │  ├─ Home.css
+│  │  ├─ Navbar.css
+│  │  ├─ Projects.css
+│  │  ├─ Services.css
+│  │  └─ Skills.css
+│  ├─ utils/
+│  │  └─ constants.js
+│  ├─ App.jsx
+│  ├─ index.css
+│  └─ main.jsx
+├─ .gitignore
+├─ image-1.png
+├─ image-2.png
+├─ image.png
+├─ index.html
+├─ LICENSE
+├─ package-lock.json
+├─ package.json
+├─ README.md
+└─ Update.md
+  
 ```
 
 ---
@@ -180,10 +210,6 @@ npm run dev
 npm run build
 ```
 
-```bash
-npm run dev
-```
-
 6. **Preview production build**
 ```bash
 npm run preview
@@ -197,7 +223,7 @@ npm run preview
 |-----------|-------------|
 | `Navbar` | Responsive navigation with active link highlighting |
 | `Home` | Hero section with animated profile image |
-| `About` | Personal info, stats and contact details |
+| `About` | Personal info, stats, and contact details |
 | `Projects` | Interactive project cards with live demos |
 | `Education` | Timeline of educational background |
 | `Experience` | Professional work experience |
@@ -215,7 +241,7 @@ npm run preview
 Creates an interactive custom cursor that follows mouse movement.
 
 ### `useNavbar`
-Handles navigation state, active section tracking and smooth scrolling.
+Handles navigation state, active section tracking, and smooth scrolling.
 
 ### `useScrollAnimation`
 Triggers animations when elements enter the viewport using Intersection Observer API.
@@ -310,6 +336,7 @@ See [LICENSE](LICENSE) for details.
 
 ## 📬 Contact
 
+<p align="center">
 
 <a href="https://yasirawan4831.github.io/futuristic-links-dashboard/">
 <img src="https://img.shields.io/badge/All%20Links-00FFFF?style=for-the-badge&logo=linktree&logoColor=black" style="margin:4px;" />
@@ -323,7 +350,7 @@ See [LICENSE](LICENSE) for details.
 <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" style="margin:4px;" />
 </a>
 
-<a href="https://yasirawaninfo.vercel.app/">
+<a href="https://yasirawan4831.github.io/ApexcifyTechnologys-FrontendInternship/task-2/">
 <img src="https://img.shields.io/badge/Portfolio-00E5FF?style=for-the-badge&logo=google-chrome&logoColor=black" style="margin:4px;" />
 </a>
 
@@ -403,10 +430,51 @@ See [LICENSE](LICENSE) for details.
 <img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" style="margin:4px;" />
 </a>
 
+</p>
 
 ---
 
-###  If you like this project, please give it a star!
+## 👨‍💻 Author
 
-Made with  by [Muhammad Yasir](https://yasirawaninfo.vercel.app/)
+**Muhammad Yasir**
+
+
+## 👨‍💻 Developer
+
+<div align="center">
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=61DAFB&center=true&vCenter=true&width=560&lines=Muhammad+Yasir;Full+Stack+Developer+%40;++%7C+Open+Source+Lover;React+%7C+Node.js+%7C+MongoDB+Enthusiast" />
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/YasirAwan4831)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/yasirawan4831)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge\&logo=vercel\&logoColor=white)](https://yasirawaninfo.vercel.app)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:yasirawan4831@gmail.com)
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=YasirAwan4831\&style=for-the-badge\&color=0f3460\&label=PROFILE+VIEWS)
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ Show Your Support
+
+**If this project helped you or you found it interesting, please consider giving it a star!**
+
+[![Star this repo](https://img.shields.io/badge/⭐_Star_This_Repo-FFD700?style=for-the-badge\&logo=starship\&logoColor=black)](https://github.com/YasirAwan4831/text-analyzer)
+
+<br/>
+
+*Developed ❤️ by Muhammad Yasir — Full Stack Web Developer • AI & Automation Enthusiast*
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,40:16213e,75:1a1a2e,100:0F2027&height=160&section=footer&animation=twinkling"/>
 
